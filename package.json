@@ -4,7 +4,8 @@
   "description": "",
   "private": true,
   "scripts": {
-    "start:dev": "webpack serve"
+    "start:dev": "webpack serve",
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "",

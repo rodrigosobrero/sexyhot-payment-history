@@ -134,7 +134,7 @@ $(document).ready(() => {
       beforeSend: (xhr) => {
         xhr.setRequestHeader('Authorization', 'Basic Y2xheHNvbjpSU0NMSHRLeEVZZDR1Vnk1')
       },
-      url: apiDev,
+      url: apiProd,
       dataSrc: ''
     },
     columns: [
