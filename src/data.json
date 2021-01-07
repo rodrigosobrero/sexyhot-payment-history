@@ -1,0 +1,112 @@
+[
+  {
+    "id": "1",
+    "status": "canceled",
+    "amount": 3000,
+    "ip_address": "200.201.145.93",
+    "integration_id": "ASDF876A",
+    "created_at": "2018-01-11T10:55:56.8-05:00",
+    "updated_at": "2018-01-11T10:55:56.8-05:00",
+    "customer": {
+      "id": "1",
+      "name": "Tony Stark",
+      "email": "tony@email.com",
+      "email_type": "personal",
+      "type": "individual",
+      "country": "br",
+      "documents": [
+        {
+          "type": "cpf",
+          "number": "00000000000"
+        }
+      ],
+      "phone_numbers": [
+        {
+          "type": "home",
+          "number": "+5511999998888"
+        },
+        {
+          "type": "mobile",
+          "number": "+5511888889999"
+        }
+      ],
+      "birthday": "1965-01-01",
+      "genre": "M"
+    },
+    "payment": {
+      "payment_method": "credit_card",
+      "credit_card": {
+        "installments": 1,
+        "statement_descriptor": "AVENGERS",
+        "card": {
+          "brand": "mastercard",
+          "number": "527331",
+          "holder_name": "Tony Stark"
+        }
+      },
+      "fraud_analysis": {
+        "cookies_accepted": "true",
+        "fingerprint_id": "SDF234SDF"
+      }
+    },
+    "recurrent_payment": {
+      "id": "1",
+      "next_recurrency": "2020-06-10",
+      "end_date": "2020-12-31",
+      "interval": "Monthly",
+      "status": "canceled"
+    },
+    "billing_address": {
+      "name": "Trinity Moss",
+      "type": "residential",
+      "country": "br",
+      "state": "sp",
+      "city": "Cotia",
+      "neighborhood": "Rio Cotia",
+      "street": "Rua Matrix",
+      "street_number": "9999",
+      "zip_code": "06714360"
+    },
+    "shipping_address": {
+      "name": "Neo Reeves",
+      "type": "residential",
+      "country": "br",
+      "state": "sp",
+      "city": "Cotia",
+      "neighborhood": "Rio Cotia",
+      "street": "Rua Matrix",
+      "street_number": "9999",
+      "zip_code": "06714360"
+    },
+    "items": [
+      {
+        "id": 1,
+        "sku": "red-pill",
+        "description": "Red Pill R$30,00",
+        "unit_price": 3000,
+        "quantity": 1,
+        "is_tangible": false,
+        "taxes": [
+          {
+            "id": 1,
+            "name": "red-pill tax",
+            "amount": 100,
+            "created_at": "2020-10-14T18:01:57.572Z",
+            "updated_at": null
+          }
+        ],
+        "voucher": {
+          "id": "f3a3fee0-06f7-11e8-bf4d-f96720891f52",
+          "voucher_code": "12AE4GH6798UU",
+          "status": "active",
+          "created_at": "2018-02-01T02:31:04.960Z",
+          "updated_at": "2018-02-01T02:31:25.639Z"
+        }
+      }
+    ],
+    "metadata": {
+      "code": "123",
+      "company": "Avengers"
+    }
+  }
+]

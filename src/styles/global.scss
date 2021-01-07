@@ -1,0 +1,40 @@
+body {
+  font-size: .8rem;
+  background-color: #f0f1f4;
+}
+
+.table-container {
+  background-color: #fff;
+}
+
+.table {
+  margin-bottom: 20px !important;
+}
+
+table.dataTable thead th, 
+table.dataTable thead td {
+  padding: 10px;
+}
+
+table.dataTable tbody th, 
+table.dataTable tbody td {
+  line-height: 30px !important;
+}
+
+.btn-sm {
+  padding: .05rem .5rem;
+}
+
+.btn-outline-secondary {
+  border-color: #f03e30;
+  border-width: 2px;
+  color: black;
+  &:hover {
+    border-color: #f03e30;
+    background-color: #f03e30;
+  }
+}
+
+.dataTables_info {
+  display: none;
+}
